@@ -125,7 +125,7 @@ public class Main {
         int percent3 = cashKristina * 10 / 100;
         int NewCash3 = cashKristina + percent3;
         int salaryKristina = NewCash3 * 12;
-        int differenceKristina = salaryKristina - yearCash3;
-        System.out.println("Кристина теперь получает" + NewCash3 + "рублей. Годовой доход вырос на" + differenceKristina + "рублей");
+        int differenceKristinas = salaryKristina - yearCash3;
+        System.out.println("Кристина теперь получает" + NewCash3 + "рублей. Годовой доход вырос на" + differenceKristinas + "рублей");
     }
 }
